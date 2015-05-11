@@ -4,7 +4,7 @@ if len(sys.argv) >= 2:
 	n = int(sys.argv[1])
 else: 
 	print "Please enter your request like this 'python fizzbuzz.py 15'"
-	answer = raw_input("How many times would you like fizzbuzz to run?").lower()
+	answer = raw_input("How many times would you like fizzbuzz to run?")
 	n = int(answer)
 
 print "Fizz buzz counting up to " + str(n) 
